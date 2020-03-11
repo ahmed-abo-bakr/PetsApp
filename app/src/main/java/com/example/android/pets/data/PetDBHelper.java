@@ -1,5 +1,4 @@
 package com.example.android.pets.data;
-
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -10,7 +9,6 @@ public class PetDBHelper extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME="shelter.db";
     private static final int DATABASE_version=1;
-
 
     public PetDBHelper(@Nullable Context context) {
         super(context, DATABASE_NAME,null, DATABASE_version);
